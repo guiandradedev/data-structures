@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/guilhermeandrade/Desktop/C/Aula Pratica/21-08/output/exercicio2'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _read_students, symObjAddr: 0x0, symBinAddr: 0x1000039BC, symSize: 0x358 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _read_students, symObjAddr: 0x0, symBinAddr: 0x1000039BC, symSize: 0x358 }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _media, symObjAddr: 0x358, symBinAddr: 0x100003D14, symSize: 0xF8 }
+  - { offsetInCU: 0xEB, offset: 0xEB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x450, symBinAddr: 0x100003E0C, symSize: 0x74 }
+...
