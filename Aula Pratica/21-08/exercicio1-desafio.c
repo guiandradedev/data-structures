@@ -34,9 +34,10 @@ List* insert(List *list, int value) {
 }
 
 void print(List *list) {
-    while(list != NULL) {
-        printf("%d\n", list->value);
-        list = list->next;
+    List *aux = list;
+    while(aux != NULL) {
+        printf("%d\n", aux->value);
+        aux = aux->next;
     }
 }
 
@@ -156,6 +157,9 @@ int main() {
     list_union=union_two_lists(start, list2);
 
     print(list_union);
+
+    list = liberate(list);
+    list2 = liberate(list2);
 
     return 0;
 }
